@@ -11,10 +11,11 @@ import LoginSignup from './components/LoginSignUp/LoginSignup';
 function App() {
   return (
     <>
+   
     <Router>
       <Navbar/>
       <Routes>
-        <Route path='/' exact Component={Home}/>
+        <Route path='*' exact Component={Home}/>
         <Route path='/products' exact Component={Products}/>
         <Route path='/services' exact Component={Services}/>
       <Route path='/sign-up' exact Component={LoginSignup}/>  

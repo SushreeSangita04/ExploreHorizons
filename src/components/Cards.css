@@ -86,7 +86,7 @@
     transition: all 0.2s linear;
   }
   .cards__item__img2 {
-    background: url('/src/images/img-2.jpg') center center/cover no-repeat; 
+    background: url('/public/images/img-2.jpg') center center/cover no-repeat; 
     position: absolute;
     top: 0;
     right: 0;

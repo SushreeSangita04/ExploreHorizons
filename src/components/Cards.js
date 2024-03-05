@@ -11,13 +11,13 @@ function Cards() {
               
                     <ul className='cards__items'>
                      <CardItem
-                      image="img-9.jpg"
+                      src={process.env.PUBLIC_URL+'/images/img-9.jpg'}
                       text='Explore the hidden waterfall deep inside the Amazon Forests'
                       label='Adventure'
                       path='/services'
                      />
                      <CardItem
-                      image="img-4.jpg"
+                      src={process.env.PUBLIC_URL+'/images/img-4.jpg'}
                       text='Experience Football on the Top of the Himalayan Mountain'
                       label='Adventure'
                       path='/services'
@@ -27,19 +27,19 @@ function Cards() {
                 </ul>
                 <ul className='cards__items'>
                      <CardItem
-                      image="img-3.jpg"
+                     src={process.env.PUBLIC_URL+'/images/img-3.jpg'}
                       text='Set Sail in  the Atlantic Ocean visiting Uncharted Waters'
                       label='Mystery'
                       path='/services'
                      />
                       <CardItem
-                      image="img-2.jpg"
+                      src={process.env.PUBLIC_URL+'/images/img-2.jpg'}
                       text='Travel through the Islands of Lakshadweep in a Private Cruise'
                       label='Luxury'
                       path='/services'
                      />
                       <CardItem
-                      image="img-1.jpg"
+                      src={process.env.PUBLIC_URL+'/images/img-1.jpg'}
                       text='Travel through the unrevealed parts of the world'
                       label='Nature'
                       path='/services'
